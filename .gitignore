@@ -1,1 +1,33 @@
 
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+#  STS
+.project
+.classpath
+.settings/
+
+# OS 환경 파일
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# 환경 설정 파일
+.env
+application.properties
+application.yml
+
+# 테스트 리포트
+test-output/
